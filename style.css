@@ -18,7 +18,9 @@
 
 }
 
-
+.wrapper{
+   margin: 0 10px;
+}
 
 .header-content {
     padding: 10px;
@@ -108,7 +110,8 @@
     grid-gap: 1rem;
     justify-content: center;
     margin-top: 20px;
-    align-content: baseline;
+    align-content:baseline;
+
 
 
 }
@@ -130,12 +133,10 @@
 
 }
 
-/* 
 
 
-.section2 {
-    background-color: yellow;
-}  */
+
+
 
 
 .post {
@@ -258,8 +259,10 @@
 
 
 .postcard-img {
+    display: flex;
     margin: 10px auto 0 auto;
-    width: 600px;
+    width: 100%;
+
 
 }
 
